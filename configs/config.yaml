@@ -1,0 +1,16 @@
+carbon_api:
+  provider: "electricitymap"
+  api_key: "Enter your API KEY"
+  region: "Enter region"
+train:
+  earliest_start_hour: 3
+  latest_start_hour: 22
+  min_carbon_intensity: 180
+  max_carbon_intensity: 400
+model:
+  type: "simple_mlp"
+  epochs: 10
+  batch_size: 64
+  use_mixed_precision: true
+logging:
+  level: "INFO"
