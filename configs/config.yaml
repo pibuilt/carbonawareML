@@ -1,7 +1,7 @@
 carbon_api:
   provider: "electricitymap"
-  api_key: "Enter your API KEY"
-  region: "Enter region"
+  api_key: "<Enter API Key>"
+  region: "<Enter Region>"
 train:
   earliest_start_hour: 3
   latest_start_hour: 22
